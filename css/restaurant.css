@@ -1,0 +1,327 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+header {
+  height: 5vh;
+  width: 100%;
+  text-align: right;
+  padding-right: 3%;
+  background: #f1f1f1;;
+  font-size: 1.2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header li {
+  display: inline-block;
+  padding: 1%;
+}
+
+header a {
+  text-decoration: none;
+  color: black;
+}
+
+.shopping {
+  width: 70%;
+}
+
+.social {
+  width: 2.5%;
+}
+
+span {
+  font-size: 1.5rem;
+}
+
+section {
+  height: 40vh;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.main {
+  padding-left: 5%;
+  background: #f1f1f1;
+  background-image: url(/Users/Chris/Downloads/class08-materials/class08-materials/marin1.PNG);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.about {
+  background-image: url(/Users/Chris/Downloads/class08-materials/class08-materials/marin2.PNG);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.marin3 {
+  background-image: url(/Users/Chris/Downloads/class08-materials/class08-materials/marin3.PNG);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 17vh;
+  width: 45%;
+  float: right;
+}
+
+.marin {
+  height: 35vh;
+  width: 25%;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+.marin3 > p {
+  display: none;
+}
+
+.main h1 {
+  font-size: 4.8rem;
+  font-weight: bold;
+  padding-bottom: 1%;
+}
+
+.welcome {
+  width: 50%;
+  float: left;
+  padding-top: 5%;
+}
+
+.welcome input {
+  margin: 2% 0;
+  padding: 2%;
+  width: 50%;
+}
+
+select {
+  padding: 2%;
+  background: pink;
+  color: white;
+}
+
+.foodImage {
+  float: right;
+}
+
+.secondImage {
+  width: 35%;
+  float: left;
+}
+
+.about {
+  height: 45vh;
+}
+
+.aboutUs {
+  float: left;
+  width: 80%;
+  margin-top: 5%;
+  margin-left: 20%;
+}
+
+.about span {
+  color: pink;
+  font-weight: bold;
+}
+
+.aboutUs h2, .octoImages h2, .booking h2, .reviews h2 {
+  font-size: 3.6rem;
+  font-weight: bold;
+  margin-bottom: 3%;
+  margin-top: 1%;
+  width: 50%;
+}
+
+.octoImages h2, .booking h2, .reviews h2 {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.about a {
+  font-size: 1.5rem;
+  background: pink;
+  padding: 1.5%;
+  border-radius: 5%;
+  display: block;
+  margin-top: 5%;
+  float: left;
+  text-decoration: none;
+  color: white;
+}
+
+.octoImages, .booking {
+  height: 90vh;
+}
+
+.octoImages, .reviews {
+  background: #ffeaea;
+}
+
+.octoImages li {
+  display: inline-block;
+  font-size: 1.5rem;
+  margin: 0 3% 2% 3%;
+  font-weight: bold;
+}
+
+.octoImages ul {
+  text-align: center;
+  display: block;
+  margin-top: 5%;
+  border-bottom: 1px solid pink;
+}
+
+.octoImages span, .booking > span{
+  color: pink;
+  font-weight: bold;
+  display: block;
+  text-align: center;
+  padding-top: 4%;
+  margin-bottom: 1%;
+}
+
+.reviews {
+  height: 50vh;
+}
+
+.reviews > span {
+  font-weight: bold;
+  display: block;
+  text-align: center;
+  padding-top: 1%;
+  margin-bottom: 1%;
+}
+
+.reviews p {
+  font-size: 1.5rem;
+  width: 50%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.octoImages img {
+  float: left;
+  padding: 1%;
+}
+
+.octo {
+  width: 60%;
+  margin-left: 25%;
+}
+
+.photos {
+  height: 70vh;
+  width: 80%;
+}
+
+
+.contact {
+  height: 25vh;
+}
+
+.contact > div {
+  text-align: center;
+  height: 25vh;
+}
+
+.phone {
+  margin: 3%;
+}
+
+.juju {
+  border-radius: 100%;
+  height: 12vh;
+  display: block;
+  margin: 0 auto;
+  margin-top: 3%;
+}
+
+.phoneNumber, .time {
+  font-size: 3rem;
+  color: pink;
+  display: block;
+  margin: 1%;
+}
+.call {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.weekdays, .weekends {
+  height: 10vh;
+  width: 50%;
+}
+
+.weekdays {
+  float: left;
+}
+
+.weekends {
+  float: right;
+}
+
+.trailer {
+  text-align: center;
+}
+
+.stars {
+  color: gold;
+}
