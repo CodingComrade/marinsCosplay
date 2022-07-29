@@ -1,0 +1,19 @@
+{
+  "name": "marinscosplay",
+  "version": "1.0.0",
+  "description": "This is just a statis website for a cosplayer, Marin Kitagawa. She is a main character from an anime and I thought she needed a website.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodingComrade/marinsCosplay.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CodingComrade/marinsCosplay/issues"
+  },
+  "homepage": "https://github.com/CodingComrade/marinsCosplay#readme"
+}
